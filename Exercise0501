@@ -1,0 +1,8 @@
+a. int[] arr[];
+b. int[] arr = {1, 2, 3,};
+c. int[] arr = new int[5]
+d. int[] arr = new int[5]{1, 2, 3, 4, 5} - 중괄호 안 값 개수에 따라 중괄호 바로 앞 대괄호에 배열의 크기 자동지정됨
+e. int arr[5]; - 배열 선언할 때 크기 지정 불가
+f. int[] arr[] = new int[3][];
+
+답 : d, e
