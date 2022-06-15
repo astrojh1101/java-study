@@ -1,4 +1,4 @@
-package chap05;
+package chap04;
 
 public class StringEqualsExample {
     public static void main(String[] args) {
