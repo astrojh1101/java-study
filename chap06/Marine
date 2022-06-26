@@ -1,0 +1,24 @@
+class Marine {
+    int x=0, y=0; // Marine의 위치좌표(x,y)
+    int hp = 60; // 현재 체력
+    int weapon = 6; // 공격력
+    int armor = 0; // 방어력
+
+    // 단, 모든 병사의 공격력과 방어력은 같아야 한다.
+
+    void weaponUp() {
+        weapon++;
+    }
+
+    void armorUp() {
+        armor++;
+    }
+
+    void move(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+}
+
+// weapon, armor : 모든 Marine에 대해 같은 값이어야 함
+ -> 또한 weaponUp()과 armorUp()도 static weapon, static armor에 관한 메소드이므로 static을 붙여야 함
