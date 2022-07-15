@@ -12,10 +12,10 @@ public abstract class Watch { //추상 클래스 : 클래스들의 공통적인 
         this.mm = mm;
     }
 
-    public void shownowtime() {
+    public void showCurrentTime() {
         System.out.println("현재 시간을 보여줍니다.");
     }
-    public void ringnotice() {
+    public void ringNotice() {
         System.out.println("알림이 도착했습니다.");
     }
 
