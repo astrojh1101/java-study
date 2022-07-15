@@ -1,4 +1,4 @@
-package chap06;
+package chap06.ownexcode;
 
 public class Helicopter { //객체 : 헬리콥터
     //필드 (인스턴스 필드)

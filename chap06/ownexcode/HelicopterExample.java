@@ -1,4 +1,4 @@
-package chap06;
+package chap06.ownexcode;
 
 public class HelicopterExample {
     public static void main(String[] args) {
