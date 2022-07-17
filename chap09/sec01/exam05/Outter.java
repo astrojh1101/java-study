@@ -13,9 +13,9 @@ public class Outter {
         }
         void print() {
             System.out.println(this.field);
-            this.method();
+            this.method(); // 중첩 객체 참조
             System.out.println(Outter.this.field);
-            Outter.this.method();
+            Outter.this.method(); // 바깥 객체 참조
         }
     }
 }
